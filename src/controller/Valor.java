@@ -2,7 +2,6 @@ package controller;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
-import java.text.DecimalFormat;
 
 public class Valor{
 
@@ -19,7 +18,7 @@ public class Valor{
 	
 	
 	//constante que formata a visualização da moeda
-	private static final DecimalFormat FORMATO = new DecimalFormat("#,###,##0.00");
+	//private static final DecimalFormat FORMATO = new DecimalFormat("#,###,##0.00");
 	
 	//construtores
 	public Valor(String valor) {
